@@ -1,30 +1,18 @@
 {
- "uuid" : "961bd6b6692347268280efb91dc268db", 
+ "uuid" : "3de4f111642747bba92a78e511fc2e33", 
  "mainFile" : "jena540.html", 
-<<<<<<< HEAD
- "wholeFilesHash" : "lcwgf8pGRkPJkuV/nb3GpBBrhC4=", 
+ "wholeFilesHash" : "KLQpW9ZRWuQ/OsXkCfAL5+quORs=", 
  "files" : [
-  {"name" : "cache.manifest", "hash" : "L/2S97i1zKMdjo4SAFldX6tQTGE=", "generated" : true}, 
-=======
- "wholeFilesHash" : "Cg5qN7vS1T2TKjpYdLDomdE22xo=", 
- "files" : [
-  {"name" : "cache.manifest", "hash" : "Ml/SCYr4IFxCi2AfG7CLCh25EG0=", "generated" : true}, 
->>>>>>> origin/master
+  {"name" : "cache.manifest", "hash" : "ovQYcwUVbQDy0/V1i2gwtSfOZAc=", "generated" : true}, 
   {"name" : "images/header.png", "hash" : "WBIaif2i0CocLkCbkmp3LsmgFPM=", "generated" : true}, 
   {"name" : "images/image11.jpeg", "hash" : "5LMDTV9IU8rMzvKnXeKO1znFRso=", "generated" : true}, 
   {"name" : "images/logo.png", "hash" : "q4ebmgGMTR+kZ+eZJ58TtlIGYwE=", "generated" : true}, 
   {"name" : "images/mute.png", "hash" : "agH+X048SZWiNFV0XVXT59fL7tA=", "generated" : true}, 
   {"name" : "images/unmute.png", "hash" : "zmKkomGtuZD1MJu7aOE+uA4m1lQ=", "generated" : true}, 
-  {"name" : "jena540.css", "hash" : "X5yuWDT5Y7+Nmry1fImUbUR5VcM=", "generated" : true}, 
-<<<<<<< HEAD
-  {"name" : "jena540.html", "hash" : "EZeNMJn4zBP53ilmxm1r/x8rVJU=", "generated" : true}, 
-  {"name" : "jena540.js", "hash" : "J9mJA3L/+RvIz6VD3OXRW32FeBM=", "generated" : true}, 
-  {"name" : "jena540_custom.js", "hash" : "Qk8k5yvpmLP4KdsC08x2elBM/jQ=", "generated" : false}, 
-=======
-  {"name" : "jena540.html", "hash" : "5p1nuCHroFAn/QApB6Vg9DyiZAk=", "generated" : true}, 
-  {"name" : "jena540.js", "hash" : "J9mJA3L/+RvIz6VD3OXRW32FeBM=", "generated" : true}, 
-  {"name" : "jena540_custom.js", "hash" : "DpValdRaTQk4yGq9rZgiavoLBE4=", "generated" : false}, 
->>>>>>> origin/master
+  {"name" : "jena540.css", "hash" : "0ab5qjZTj6dhGzUZ90VHNkA2BVQ=", "generated" : true}, 
+  {"name" : "jena540.html", "hash" : "ZRQpIUHUcHo3ebmhRUnshMAwna8=", "generated" : true}, 
+  {"name" : "jena540.js", "hash" : "OQxcpCIlWserZPQQZXudn+Q5d7U=", "generated" : true}, 
+  {"name" : "jena540_custom.js", "hash" : "jPpcL1Yb6BEJzwRYCfcnHTbdgLQ=", "generated" : false}, 
   {"name" : "res/images/sw-alpha-multi.png", "hash" : "msgbODRc9VGU22U8qAr0n/b2cts=", "generated" : true}, 
   {"name" : "res/images/sw-alpha.png", "hash" : "F6Oiz2fhB1Tz7IpK5ogBY+6ocwk=", "generated" : true}, 
   {"name" : "res/images/sw-button-cancel.png", "hash" : "3r49CsJsV9KEM75YQTrlXoQtKDw=", "generated" : true}, 

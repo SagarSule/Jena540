@@ -159,6 +159,10 @@
   color: rgb(255,255,255);
 }
 
+.m1-border-2{
+  -webkit-border-radius: 5px;
+}
+
 .m1-button.m1-font-2{
   color: rgb(255,255,255);
   font-family: Arial;
@@ -182,7 +186,7 @@
   background-image: none;
 }
 
-.m1-border-2{
+.m1-border-3{
   -webkit-border-radius: 0px;
 }
 
@@ -213,14 +217,14 @@ body{
   height: 50px;
   left: 0px;
   line-height: 48px;
-  top: -287px;
+  top: -315px;
   width: 50px;
 }
 
 #m1-jena540-html1{
   height: 50px;
   left: 67px;
-  top: -237px;
+  top: -265px;
   width: 455px;
 }
 
@@ -232,7 +236,7 @@ body{
   left: 0px;
   line-height: 75px;
   text-align: center;
-  top: -174px;
+  top: -202px;
   width: 530px;
 }
 
@@ -241,10 +245,10 @@ body{
   border-top-color: transparent;
   border-width: 1px 0px 0px 0px;
   height: 75px;
-  left: 1030px;
+  left: 1028px;
   line-height: 75px;
   text-align: center;
-  top: -99px;
+  top: -127px;
   width: 250px;
 }
 
@@ -256,7 +260,7 @@ body{
   left: 780px;
   line-height: 75px;
   text-align: center;
-  top: -24px;
+  top: -52px;
   width: 250px;
 }
 
@@ -268,8 +272,17 @@ body{
   left: 530px;
   line-height: 75px;
   text-align: center;
-  top: 51px;
+  top: 23px;
   width: 250px;
+}
+
+#m1-jena540-panel1{
+  height: 100px;
+  left: 0px;
+  line-height: 100px;
+  margin-right: 0px;
+  top: 26px;
+  width: auto;
 }
 
 #m1-jena540-image1{

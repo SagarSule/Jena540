@@ -6,7 +6,7 @@
  * @returns {boolean} true to continue transtion; false to halt transition
  */
 
-var url = "http://192.168.3.1:8080/"
+var url = "http://192.168.1.1:8080/"
 var RB = 0;     //ReactorBuilding
 var TB = 0;     //TurbineBuilding
 var PHT = 0;    //PHTLoop
@@ -30,11 +30,7 @@ var PENG = 0;
 var PHIN = 0;
 var STOP = 0;
 var MUTE = 0;
-<<<<<<< HEAD
 var VOL = 20;
-=======
-var VOL = 200;
->>>>>>> origin/master
 var ALL = 0;
 
 
@@ -290,7 +286,6 @@ getXML = function(newURL)
 		}
 		else if (MUTE == 1){
 			$('#m1-jena540-Mute').css({'-webkit-border-image': 'url(images/mute.png) 1 1 1 1 stretch stretch'});
-<<<<<<< HEAD
 		}
 		if (PENG == 1){
 			$('#m1-jena540-PENG').css({'background-color': 'rgb(196,18,47)'});
@@ -307,9 +302,6 @@ getXML = function(newURL)
 		else if (PHIN == 0){
 			$('#m1-jena540-PHIN').css({'background-color': 'rgb(168,34,142)'});
 //			$('#m1-jena540-PHIN').css({'color':'#003E86'});	
-=======
-		
->>>>>>> origin/master
 		}
 }
 
