@@ -32,6 +32,7 @@ var STOP = 0;
 var MUTE = 0;
 var VOL = 20;
 var ALL = 0;
+var myVar;
 
 
 phoneui.prePageTransition = function(currentScreenId, targetScreenId) {
@@ -75,6 +76,7 @@ phoneui.postOrientationChange = function(newOrientation) {
  */
 phoneui.documentReadyHandler = function() {
 	getXML(url);
+	myVar=setInterval(function(){getXML(url)},1000);
 }
 
 getXML = function(newURL)
@@ -304,6 +306,3 @@ getXML = function(newURL)
 //			$('#m1-jena540-PHIN').css({'color':'#003E86'});	
 		}
 }
-
-
-

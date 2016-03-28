@@ -57,7 +57,8 @@
     "m1_jena540_image2:click": "action54",
     "m1_jena540_MUTE:click": "action55",
     "m1_jena540_Mute:click": "action56",
-    "m1_jena540_image1:click": "action57"
+    "m1_jena540_image1:click": "action57",
+    "m1_jena540_i_PHWR:click": "action58"
   },
   "splashScreenHashes": {}
 }
