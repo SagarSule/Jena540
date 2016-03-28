@@ -22,7 +22,7 @@ Client - Nuclear Power Corpoaration of India Ltd.
     -->
     <preference name="phonegap-version" value="3.6.3"/>
     
-	<preference name="StatusBarOverlaysWebView" value="true"/> 
+	<preference name="StatusBarOverlaysWebView" value="false"/> 
 	<preference name="StatusBarBackgroundColor" value="#000000"/>
 	<preference name="StatusBarStyle" value="lightcontent"/>
     <!-- <preference name="ios-statusbarstyle" value="black-opaque"/> -->
@@ -36,7 +36,7 @@ Client - Nuclear Power Corpoaration of India Ltd.
     <preference name="fullscreen" value="true"/> <!-- set false to show android statusbar -->
     <preference name="webviewbounce" value="true"/>
     <preference name="prerendered-icon" value="true"/>
-    <preference name="stay-in-webview" value="false"/>
+    <preference name="stay-in-webview" value="true"/>
     <preference name="detect-data-types" value="true"/>
     <preference name="exit-on-suspend" value="true"/>
     <preference name="show-splash-screen-spinner" value="true"/>
@@ -48,18 +48,29 @@ Client - Nuclear Power Corpoaration of India Ltd.
     <preference name="android-installLocation" value="auto"/>
         
     <!-- Core cordova/phonegap plugins -->
+    <gap:plugin name="org.apache.cordova.battery-status"/>
+    <gap:plugin name="org.apache.cordova.camera"/>
+    <gap:plugin name="org.apache.cordova.media-capture"/>
     <gap:plugin name="org.apache.cordova.console"/>
+    <gap:plugin name="org.apache.cordova.contacts"/>
     <gap:plugin name="org.apache.cordova.device"/>
+    <gap:plugin name="org.apache.cordova.device-motion"/>
     <gap:plugin name="org.apache.cordova.device-orientation"/>
+    <gap:plugin name="org.apache.cordova.dialogs"/>
     <gap:plugin name="org.apache.cordova.file"/>
+    <gap:plugin name="org.apache.cordova.file-transfer"/>
+    <gap:plugin name="org.apache.cordova.geolocation"/>
     <gap:plugin name="org.apache.cordova.globalization"/>
     <gap:plugin name="org.apache.cordova.inappbrowser"/>
+    <gap:plugin name="org.apache.cordova.media"/>
     <gap:plugin name="org.apache.cordova.network-information"/>
     <gap:plugin name="org.apache.cordova.splashscreen"/>
-       
+    <gap:plugin name="org.apache.cordova.vibration"/>
+    
     <!-- MobiOne plugins  -->
+    <gap:plugin name="com.badrit.emailcomposer"/>
     <gap:plugin name="com.genuitec.mobione.phoneui"/>
-	<gap:plugin name="com.phonegap.plugins.childbrowser" spec="5.0.0" source="pgb" />
+    <gap:plugin name="com.phonegap.plugins.childbrowser"/>
     <gap:plugin name="org.apache.cordova.statusbar"/>
     
 	<!-- Default app icon appearing on device homescreen -->
