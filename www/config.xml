@@ -20,7 +20,7 @@ Client - Nuclear Power Corpoaration of India Ltd.
     <!-- Uncomment and edit to specify a specific phonegap version 
          otherwise use PhoneGap Build will use the most recent version 
     -->
-    <!-- <preference name="phonegap-version" value="3.5.0"/> -->
+    <preference name="phonegap-version" value="3.6.3"/>
     
 	<preference name="StatusBarOverlaysWebView" value="false"/> 
 	<preference name="StatusBarBackgroundColor" value="#000000"/>
