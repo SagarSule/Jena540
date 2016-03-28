@@ -6,7 +6,7 @@
  * @returns {boolean} true to continue transtion; false to halt transition
  */
 
-var url = "http://192.168.1.1:8080/"
+var url = "http://192.168.3.1:8080/"
 var RB = 0;     //ReactorBuilding
 var TB = 0;     //TurbineBuilding
 var PHT = 0;    //PHTLoop
