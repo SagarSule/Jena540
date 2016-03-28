@@ -33,7 +33,7 @@ Client - Nuclear Power Corpoaration of India Ltd.
     <preference name="permissions" value="none"/>
     <preference name="orientation" value="landscape"/>
     <preference name="target-device" value="tablet"/>
-    <preference name="fullscreen" value="true"/> <!-- set false to show android statusbar -->
+    <preference name="fullscreen" value="false"/> <!-- set false to show android statusbar -->
     <preference name="webviewbounce" value="true"/>
     <preference name="prerendered-icon" value="true"/>
     <preference name="stay-in-webview" value="false"/>
