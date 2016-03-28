@@ -1,0 +1,36 @@
+CACHE MANIFEST
+<<<<<<< HEAD
+# hash FmNzTBYhnLKhK6Ku3CE2z3hoyy4=
+=======
+# hash Aas24+tdImRxyK7giMquqe0/hDM=
+>>>>>>> origin/master
+# uuid 961bd6b6692347268280efb91dc268db
+
+images/header.png
+images/image11.jpeg
+images/logo.png
+images/mute.png
+images/unmute.png
+jena540.css
+jena540.html
+jena540.js
+jena540_custom.js
+res/images/sw-alpha-multi.png
+res/images/sw-alpha.png
+res/images/sw-button-cancel.png
+res/images/sw-button-done.png
+res/images/sw-check.png
+res/images/sw-header.png
+res/images/sw-no-check.png
+res/images/sw-slot-border.png
+res/iscroll.js
+res/jquery-1.8.3.min.js
+res/phoneui.js
+res/spinningwheel.css
+res/spinningwheel.js
+rte/cordova.js
+rte/readme.txt
+rte/rte.js
+slider.css
+
+NETWORK:

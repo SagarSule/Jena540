@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<widget 
+	xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0" 
+	xmlns:android="http://schemas.android.com/apk/mobione/android"
+	id="aakararts.npcil.phwr540" 
+	version="1.1.0">
+    
+    <name>NPCIL</name>
+    <description>Android app to operate NPP model of 540 MWe PHWR. 
+Client - Nuclear Power Corpoaration of India Ltd.
+(c) AakarArts 2016</description>
+    <author email="sagar@aakararts.com" href="http://www.aakararts.com.com">Aakar Arts</author>
+    
+    <!-- Either rename your prj startup html file to index.html or replace index.html below
+         with the name of your project startup html file 
+    -->
+    <content src="jena540.html" />
+    
+    <!-- Uncomment and edit to specify a specific phonegap version 
+         otherwise use PhoneGap Build will use the most recent version 
+    -->
+    <!-- <preference name="phonegap-version" value="3.5.0"/> -->
+    
+	<preference name="StatusBarOverlaysWebView" value="false"/> 
+	<preference name="StatusBarBackgroundColor" value="#000000"/>
+	<preference name="StatusBarStyle" value="lightcontent"/>
+    <!-- <preference name="ios-statusbarstyle" value="black-opaque"/> -->
+        
+     <!-- For a descripton of preferences see 
+     	  http://docs.build.phonegap.com/en_US/configuring_preferences.md.html#Preferences 
+     -->
+    <preference name="permissions" value="none"/>
+    <preference name="orientation" value="landscape"/>
+    <preference name="target-device" value="tablet"/>
+    <preference name="fullscreen" value="true"/> <!-- set false to show android statusbar -->
+    <preference name="webviewbounce" value="true"/>
+    <preference name="prerendered-icon" value="true"/>
+    <preference name="stay-in-webview" value="false"/>
+    <preference name="detect-data-types" value="true"/>
+    <preference name="exit-on-suspend" value="true"/>
+    <preference name="show-splash-screen-spinner" value="true"/>
+    <preference name="SplashScreen" value="screen" />
+ 	<preference name="SplashScreenDelay" value="5000" />
+    <!-- <preference name="auto-hide-splash-screen" value="true"/> -->    
+    <preference name="disable-cursor" value="false"/>
+    <preference name="android-minSdkVersion" value="7"/>
+    <preference name="android-installLocation" value="auto"/>
+        
+    <!-- Core cordova/phonegap plugins -->
+    <gap:plugin name="org.apache.cordova.battery-status"/>
+    <gap:plugin name="org.apache.cordova.camera"/>
+    <gap:plugin name="org.apache.cordova.media-capture"/>
+    <gap:plugin name="org.apache.cordova.console"/>
+    <gap:plugin name="org.apache.cordova.contacts"/>
+    <gap:plugin name="org.apache.cordova.device"/>
+    <gap:plugin name="org.apache.cordova.device-motion"/>
+    <gap:plugin name="org.apache.cordova.device-orientation"/>
+    <gap:plugin name="org.apache.cordova.dialogs"/>
+    <gap:plugin name="org.apache.cordova.file"/>
+    <gap:plugin name="org.apache.cordova.file-transfer"/>
+    <gap:plugin name="org.apache.cordova.geolocation"/>
+    <gap:plugin name="org.apache.cordova.globalization"/>
+    <gap:plugin name="org.apache.cordova.inappbrowser"/>
+    <gap:plugin name="org.apache.cordova.media"/>
+    <gap:plugin name="org.apache.cordova.network-information"/>
+    <gap:plugin name="org.apache.cordova.splashscreen"/>
+    <gap:plugin name="org.apache.cordova.vibration"/>
+    
+    <!-- MobiOne plugins  -->
+    <gap:plugin name="com.badrit.emailcomposer"/>
+    <gap:plugin name="com.genuitec.mobione.phoneui"/>
+    <gap:plugin name="com.phonegap.plugins.childbrowser"/>
+    <gap:plugin name="org.apache.cordova.statusbar"/>
+    
+	<!-- Default app icon appearing on device homescreen -->
+
+	<!-- Android app branding artwork -->
+    <icon gap:platform="android" gap:qualifier="ldpi" src="images/logo.png"/>
+    <icon gap:platform="android" gap:qualifier="mdpi" src="images/logo.png"/>
+    <icon gap:platform="android" gap:qualifier="hdpi" src="images/logo.png"/>
+    <icon gap:platform="android" gap:qualifier="xhdpi" src="images/logo.png"/>
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="images/splash.png"/>
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="images/splash.png"/>
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="images/splash.png"/>
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="images/splash.png"/>
+
+
+	<!-- iOS app branding artwork -->
+
+	<!-- Whitelist of urls this app may open in an InAppBrowser -->
+    <access origin="*"/>
+    
+    <!-- Configure remote debugging on Android 4.4 & greater.                     -->
+    <!--  Overrides MyEclipse Build dialog's debug mode.                          -->
+    <!-- Set android:debuggable="true" to enable remote debugging.                -->
+    <!-- Set android:debuggable="false" or remove element for production release. -->
+     
+    <gap:config-file parent="/manifest" platform="android">
+    	 <application android:debuggable="false"/>
+	</gap:config-file>
+	
+    <gap:platform name="android"/>
+    <preference name="deployment-target" value="6.0"/>
+    <preference name="android-windowSoftInputMode" value="stateAlwaysHidden|adjustResize"/>
+    <preference name="splash-screen-duration" value="5000"/>
+    <icon src="images/icon.png"/>
+    <gap:splash src="images/splash.png"/>
+    
+	
+</widget>
