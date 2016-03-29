@@ -76,7 +76,6 @@ phoneui.postOrientationChange = function(newOrientation) {
  */
 phoneui.documentReadyHandler = function() {
 	getXML(url);
-	myVar=setInterval(function(){getXML(url)},1000);
 }
 
 getXML = function(newURL)
@@ -305,4 +304,10 @@ getXML = function(newURL)
 			$('#m1-jena540-PHIN').css({'background-color': 'rgb(168,34,142)'});
 //			$('#m1-jena540-PHIN').css({'color':'#003E86'});	
 		}
+}
+
+function myTimer()
+{
+	clearInterval(myVar);
+	getXML(url + "?STOP");
 }
