@@ -51,13 +51,10 @@ Client - Nuclear Power Corpoaration of India Ltd.
     <gap:plugin name="org.apache.cordova.console"/>
     <gap:plugin name="org.apache.cordova.device"/>
     <gap:plugin name="org.apache.cordova.device-orientation"/>
-    <gap:plugin name="org.apache.cordova.globalization"/>
     <gap:plugin name="org.apache.cordova.inappbrowser"/>
-    <gap:plugin name="org.apache.cordova.network-information"/>
     <gap:plugin name="org.apache.cordova.splashscreen"/>
     
     <!-- MobiOne plugins  -->
-    <gap:plugin name="com.badrit.emailcomposer"/>
     <gap:plugin name="com.genuitec.mobione.phoneui"/>
     <gap:plugin name="com.phonegap.plugins.childbrowser"/>
     <gap:plugin name="org.apache.cordova.statusbar"/>
