@@ -298,7 +298,7 @@ getXML = function(newURL)
 		}
 		if (PHIN == 1){
 			$('#m1-jena540-PHIN').css({'background-color': 'rgb(196,18,47)'});
-//			$('#m1-jena540-PENG').css({'color':'#00B2CB'});	
+//			$('#m1-jena540-PHIN').css({'color':'#00B2CB'});	
 		}
 		else if (PHIN == 0){
 			$('#m1-jena540-PHIN').css({'background-color': 'rgb(168,34,142)'});
@@ -306,8 +306,9 @@ getXML = function(newURL)
 		}
 }
 
-function myTimer()
+myTimer = function()
 {
 	clearInterval(myVar);
-	getXML(url + "?STOP");
+	$('#m1-jena540-PHIN').css({'background-color': 'rgb(168,34,142)'});
+	$('#m1-jena540-PENG').css({'background-color': 'rgb(168,34,142)'});
 }
