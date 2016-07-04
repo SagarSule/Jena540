@@ -95,3 +95,20 @@ Client - Nuclear Power Corpoaration of India Ltd.
     
 	
 </widget>
+
+
+<preference name="AndroidLaunchMode" value="singleTop"/>
+	<preference name="OverrideUserAgent" value="Mozilla/5.0 My Browser" />
+	<preference name="AppendUserAgent" value="My Browser" />
+	
+	    <preference name="phonegap-version" value="cli-5.1.1" />
+
+	<feature name="ChildBrowser">
+	<param value="com.phonegap.plugins.childBrowser.ChildBrowser" name="android-package"/>
+	</feature>
+	<feature name="InAppBrowser">
+	<param value="org.apache.cordova.inappbrowser.InAppBrowser" name="android-package"/>
+	</feature>
+	<feature name="Device">
+	<param value="org.apache.cordova.device.Device" name="android-package"/>
+	</feature>

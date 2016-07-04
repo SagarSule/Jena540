@@ -71,10 +71,23 @@ phoneui.postOrientationChange = function(newOrientation) {
   
 }
 
+function ssidHandler(s){
+    alert("Current SSID - "+s);
+}
+function fail(e){
+    alert("Failed"+e);
+}
+function getSSID(){
+	alert("before omg!");
+    WifiWizard.getCurrentSSID(ssidHandler, fail);
+	alert("omg!");
+}
+
 /**
  * Called when document is loaded.
  */
 phoneui.documentReadyHandler = function() {
+	getSSID();
 	getXML(url);
 }
 
