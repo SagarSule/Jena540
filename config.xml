@@ -58,7 +58,8 @@ Client - Nuclear Power Corpoaration of India Ltd.
     <gap:plugin name="com.genuitec.mobione.phoneui"/>
     <gap:plugin name="com.phonegap.plugins.childbrowser"/>
     <gap:plugin name="org.apache.cordova.statusbar"/>
-    
+   	<gap:plugin name="com.pylonproducts.wifiwizard" />
+
 	<!-- Default app icon appearing on device homescreen -->
 
 	<!-- Android app branding artwork -->
